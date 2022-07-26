@@ -1,0 +1,45 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    undefined_prefixed_name: ignore
+    unsafe_html: ignore
+    invalid_assignment: warning
+    missing_return: error
+    dead_code: info
+  exclude:
+    - lib/**.g.dart
+    - lib/**.config.dart
+enable-experiment:
+  - extension-methods
+linter:
+  rules:
+    - always_declare_return_types
+    - annotate_overrides
+    - avoid_empty_else
+    - avoid_escaping_inner_quotes
+    - avoid_print
+    - avoid_redundant_argument_values
+    - avoid_types_on_closure_parameters
+    - avoid_void_async
+    - directives_ordering
+    - cascade_invocations
+    - omit_local_variable_types
+    - prefer_const_constructors
+    - prefer_const_constructors_in_immutables
+    - prefer_const_declarations
+    - prefer_final_fields
+    - prefer_final_in_for_each
+    - prefer_final_locals
+    - prefer_initializing_formals
+    - prefer_int_literals
+    - prefer_interpolation_to_compose_strings
+    - prefer_single_quotes
+    - unnecessary_lambdas
+    - unnecessary_parenthesis
+    - unnecessary_string_interpolations
+    - always_use_package_imports
+    - non_constant_identifier_names
+    - sized_box_for_whitespace
+    - use_colored_box
+    - use_decorated_box
